@@ -7,8 +7,34 @@ body{
     margin: 0;
     padding: 20px;
 }
-/* container principal */
 
+/*seletor de classe */
+.nav-link{
+    color: aqua;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*ID */
+#active-link{
+    color: red;
+    background: darkgray;
+    border-radius: 5px;
+}
+
+#menu{
+    background-color: crimson;
+    border-radius: 5px;
+    list-style: none;
+    padding: 20px;
+}
+
+#menu li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* container principal */
 main{
     max-width: 1000px;
     margin: 0 auto;
